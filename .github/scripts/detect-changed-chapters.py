@@ -10,7 +10,7 @@ import json
 import subprocess
 from pathlib import Path
 
-def checkout_base_files(base_ref='origin/gh-pages', target_dir='/tmp/base-files'):
+def checkout_base_files(base_ref='gh-pages', target_dir='/tmp/base-files'):
     """
     Check out the base HTML and DOCX files from gh-pages for comparison.
 

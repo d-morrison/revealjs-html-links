@@ -460,7 +460,7 @@ class HTMLDiffer:
             print(f"  Could not fetch base version (file may be new)")
 
 
-def checkout_base_html(base_ref='origin/gh-pages', target_dir='/tmp/base-html'):
+def checkout_base_html(base_ref='gh-pages', target_dir='/tmp/base-html'):
     """Check out the base HTML files from gh-pages for comparison."""
     target_path = Path(target_dir)
     

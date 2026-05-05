@@ -10,7 +10,7 @@ import subprocess
 import shutil
 from pathlib import Path
 
-def checkout_base_docx(base_ref='origin/gh-pages', target_dir='/tmp/base-docx'):
+def checkout_base_docx(base_ref='gh-pages', target_dir='/tmp/base-docx'):
     """Check out the base DOCX files from gh-pages for comparison."""
     target_path = Path(target_dir)
     target_path.mkdir(parents=True, exist_ok=True)
@@ -227,8 +227,7 @@ def main():
         print("   (This is normal for:")
         print("    - First PR to a new repository")
         print("    - If gh-pages branch doesn't have DOCX files yet)")
-        print("   Skipping DOCX tracked changes creation.")
-        return
+        print("   Will copy current DOCX files as tracked-changes placeholders.")
     else:
         print(f"✓ Base DOCX checked out to {base_docx_dir}")
     
