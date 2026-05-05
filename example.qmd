@@ -1,6 +1,8 @@
 ---
 title: RevealJS HTML Links Example
-format: revealjs
+format:
+  html: default
+  revealjs: default
 filters:
   - d-morrison/revealjs-html-links
 ---
@@ -9,12 +11,13 @@ filters:
 
 This is the first slide.
 
-When this presentation is served as `example-slides.html`, a **"Webpage version"**
-button will appear in the top-right corner linking to `example.html#slide-one`.
+When viewing the RevealJS presentation (`example-slides.html`), a **"Webpage version"**
+button appears in the top-right corner linking to `example.html#slide-one`.
 
 ## Slide Two {#slide-two}
 
 This is the second slide.
 
 The link in the top-right corner updates automatically as you navigate between
-slides, always pointing to the corresponding section of the HTML notes document.
+slides, always pointing to the corresponding section of the HTML notes document
+(`example.html`).
