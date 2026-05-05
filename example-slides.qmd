@@ -1,0 +1,20 @@
+---
+title: RevealJS HTML Links Example
+format: revealjs
+filters:
+  - d-morrison/revealjs-html-links
+---
+
+## Slide One {#slide-one}
+
+This is the first slide.
+
+The **"Webpage version"** button in the top-right corner links to
+`example.html#slide-one`.
+
+## Slide Two {#slide-two}
+
+This is the second slide.
+
+The button updates automatically as you navigate, always pointing to the
+corresponding section of the HTML notes document (`example.html`).

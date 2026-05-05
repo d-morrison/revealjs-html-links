@@ -10,3 +10,5 @@ website:
         text: Home
       - href: example.qmd
         text: Example
+      - href: example-slides.qmd
+        text: Slides

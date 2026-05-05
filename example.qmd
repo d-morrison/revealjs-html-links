@@ -1,24 +1,20 @@
 ---
 title: RevealJS HTML Links Example
-format:
-  html: default
-  revealjs: default
-filters:
-  - d-morrison/revealjs-html-links
+format: html
 ---
 
-## Slide One {#slide-one}
+## Section One {#slide-one}
 
-This is the first slide.
+This is the first section of the HTML notes document.
 
-When viewing the RevealJS presentation (`example-slides.html`), a **"Webpage version"**
-button appears in the top-right corner linking to `example.html#slide-one`.
+Open the [RevealJS presentation](example-slides.html) to see the
+**"Webpage version"** button in the top-right corner, which links back to this
+page.
 
-## Slide Two {#slide-two}
+## Section Two {#slide-two}
 
-This is the second slide.
+This is the second section.
 
-The link in the top-right corner updates automatically as you navigate between
-slides, always pointing to the corresponding section of the HTML notes document
-(`example.html`).
+As you navigate between slides in the presentation, the button updates
+automatically to link to the corresponding section of this HTML notes document.
 
