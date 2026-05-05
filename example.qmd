@@ -21,3 +21,4 @@ This is the second slide.
 The link in the top-right corner updates automatically as you navigate between
 slides, always pointing to the corresponding section of the HTML notes document
 (`example.html`).
+
