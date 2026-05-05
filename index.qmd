@@ -1,0 +1,19 @@
+---
+title: revealjs-html-links
+format: html
+filters:
+  - d-morrison/revealjs-html-links
+---
+
+This extension adds a persistent **"Webpage version"** button to RevealJS
+presentations that links back to the corresponding HTML notes document.
+
+Use `quarto add d-morrison/revealjs-html-links` in your Quarto project, then
+enable the filter:
+
+```yaml
+filters:
+  - d-morrison/revealjs-html-links
+```
+
+See [example.qmd](example.qmd) for a minimal working example.
